@@ -38,7 +38,7 @@ The tested 2D CNNs are:
 - ResNet152V2 ([https://keras.io/api/applications/resnet/#resnet152v2-function](https://keras.io/api/applications/resnet/#resnet152v2-function))
 - InceptionV3 ([https://keras.io/api/applications/inceptionv3](https://keras.io/api/applications/inceptionv3))
 - MobileNetV2 ([https://keras.io/api/applications/mobilenet/#mobilenetv2-function](https://keras.io/api/applications/mobilenet/#mobilenetv2-function))
-- NasNETMobile ([https://keras.io/api/applications/nasnet/#nasnetmobile-function](https://keras.io/api/applications/nasnet/#nasnetmobile-function))
+- NASNetMobile ([https://keras.io/api/applications/nasnet/#nasnetmobile-function](https://keras.io/api/applications/nasnet/#nasnetmobile-function))
 - DenseNet121 ([https://keras.io/api/applications/densenet/#densenet121-function](https://keras.io/api/applications/densenet/#densenet121-function))
 - Xception ([https://keras.io/api/applications/xception/](https://keras.io/api/applications/xception/))
 
