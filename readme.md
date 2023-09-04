@@ -2,9 +2,9 @@
 
 This repository contains the source code of the experiments presented in the paper
 
->A. Silenzi, S. Tomassini, N. Falcionelli, P. Contardo, A. Bonci, A.F. Dragoni, P. Sernani, *Quality Control of Carbon Look Components via Surface Defect Classification with Deep Neural Networks*.
+>Silenzi, A.; Castorani, V.; Tomassini, S.; Falcionelli, N.; Contardo, P.; Bonci, A.; Dragoni, A.F.; Sernani, P. Quality Control of Carbon Look Components via Surface Defect Classification with Deep Neural Networks. *Sensors*. 2023; 23(17):7607. <https://doi.org/10.3390/s23177607> 
 
-The paper is currently under review for the publication in the [Sensors MDPI journal](https://www.mdpi.com/journal/sensors).
+The paper is published in the special issue [Artificial Intelligence in Imaging Sensing and Processing](https://www.mdpi.com/journal/sensors/special_issues/JS98B8S2W8) of the [Sensors MDPI journal](https://www.mdpi.com/journal/sensors). The paper is open access and available here: https://www.mdpi.com/1424-8220/23/17/7607
 
 Specifically, the experiments are **accuracy tests of ten different 2D Convolutional Neural Networks (2D CNNs) pretrained on Imagenet**. The models are combined with fully connected layers to classify images of carbon-look components into **defective and non-defective** and to recognize **different types of surface defects**. Such models perform a classification on samples of a real case study, collected into two different datasets to test binary classification (negative, i.e. no defects, vs positive, i.e. with defects) and multi-class classification (negative, i.e. no defects, vs non-recoverable defects vs recoverable defects).
 
@@ -83,3 +83,23 @@ Each model was trained in a end-to-end fashion on the proposed datasets, fine tu
 | **NASNetMobile** |      Last 8     |      Adam     |       0.0001      |            -            |          x          |          -          |          -          |
 |  **DenseNet121** |      Last 8     |      Adam     |       0.0001      |            -            |          x          |          -          |          -          |
 |   **Xception**   |      Last 8     |      Adam     |       0.0001      |            -            |          x          |          -          |          -          |
+
+## Source Code Release Agreement
+
+The source code of the experiments is freely released for research and educational purposes. Please cite as
+- Silenzi, A.; Castorani, V.; Tomassini, S.; Falcionelli, N.; Contardo, P.; Bonci, A.; Dragoni, A.F.; Sernani, P. Quality Control of Carbon Look Components via Surface Defect Classification with Deep Neural Networks. *Sensors*. 2023; 23(17):7607. <https://doi.org/10.3390/s23177607>
+ 
+Bibtex entry:
+
+	 @article{Silenzi2023,
+	   author = {Silenzi, Andrea and Castorani, Vincenzo and Tomassini, Selene and Falcionelli, Nicola and Contardo, Paolo and Bonci, Andrea and Dragoni, Aldo Franco and Sernani, Paolo},
+	   title = {Quality Control of Carbon Look Components via Surface Defect Classification with Deep Neural Networks},
+	   journal = {Sensors},
+	   volume = {23},
+	   year = {2023},
+	   number = {17},
+	   article-number = {7607},
+	   doi = {10.3390/s23177607}
+	 }
+
+The paper is open access and available here: <https://www.mdpi.com/1424-8220/23/17/7607>
